@@ -21,12 +21,3 @@
     #+BEGIN_SRC sh
       cafe-runner compute devstack.json.config -m test_create_images
     #+END_SRC
-    
-
-** Rackspace
-   To run this in a Rackspace Cloud Server do the following
-
-   - Install provider plugin
-     ~vagrant plugin install vagrant-rackspace~
-   - Edit the ~Vagrantfile~ with your Rackspace username and api key
-   - ~vagrant up --provider=rackspace~
