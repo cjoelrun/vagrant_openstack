@@ -1,0 +1,5 @@
+ADMIN_PASSWORD=ostackdemo
+MYSQL_PASSWORD=ostackdemo
+RABBIT_PASSWORD=ostackdemo
+SERVICE_PASSWORD=ostackdemo
+HOST_IP=192.168.11.22

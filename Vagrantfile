@@ -13,8 +13,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "devstack-chef"
   end
 
-  devstack_cmd = "git clone https://github.com/openstack-dev/devstack.git /opt/devstack && /opt/devstack/stack.sh"
-  cafe_cmd = "for i in opencafe cloudcafe cloudroast; do clone https://github.com/stackforge/$i.git /opt/$i; sudo pip install -r /opt/$i/pip-requires; sudo pip install /opt/$i --upgrade; done"
+  cafe_cmd = "for i in opencafe cloudcafe cloudroast; do git clone https://github.com/stackforge/$i.git /opt/$i; sudo pip install -r /opt/$i/pip-requires; sudo pip install /opt/$i --upgrade; done"
 
-  config.vm.provision :shell, :inline => [devstack_cmd, cafe_cmd].join('; ')
+  config.vm.provision :shell, :inline => [cafe_cmd].join('; ')
 end
