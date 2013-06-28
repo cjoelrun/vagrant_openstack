@@ -1,0 +1,25 @@
+* Vagrant Openstack
+
+** Install
+   - [[http://docs.vagrantup.com/v2/installation/index.html][Install]] VirtualBox and Vagrant
+   - Clone repo
+   - run ~vagrant up~ in repo
+   - Wait
+   - ~vagrant ssh~ in or visit [[http://198.101.10.10][dashboard]]
+
+** Tests
+   
+   Log into box and run your choice of testing frameworks
+
+*** Tempest
+    
+    #+BEGIN_SRC sh
+      nosetests /opt/stack/tempest/
+    #+END_SRC
+
+*** CloudCafe
+    #+BEGIN_SRC sh
+      cafe-runner compute devstack.json.config -m test_create_images
+    #+END_SRC
+    
+
