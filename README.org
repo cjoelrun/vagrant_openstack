@@ -5,7 +5,6 @@
    - Clone repo
      ~git clone https://github.com/cjoelrun/vagrant_openstack.git --recursive~
    - run ~vagrant up~ in repo
-   - Wait
    - ~vagrant ssh~ in or visit [[http://198.101.10.10][dashboard]]
 
 ** Tests
@@ -24,3 +23,10 @@
     #+END_SRC
     
 
+** Rackspace
+   To run this in a Rackspace Cloud Server do the following
+
+   - Install provider plugin
+     ~vagrant plugin install vagrant-rackspace~
+   - Edit the ~Vagrantfile~ with your Rackspace username and api key
+   - ~vagrant up --provider=rackspace~
