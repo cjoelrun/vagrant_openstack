@@ -4,3 +4,6 @@
 [submodule "cookbooks/devstack-chef"]
 	path = cookbooks/devstack-chef
 	url = https://github.com/cjoelrun/devstack-chef.git
+[submodule "cookbooks/cloudcafe"]
+	path = cookbooks/cloudcafe
+	url = https://github.com/cjoelrun/cloudcafe-chef.git
