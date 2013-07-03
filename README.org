@@ -3,7 +3,7 @@
 ** Install
    - [[http://docs.vagrantup.com/v2/installation/index.html][Install]] VirtualBox and Vagrant
    - Clone repo
-     ~git clone https://github.com/cjoelrun/vagrant_openstack.git --recursive~
+     ~git clone https://github.com/rcbops-qa/vagrant_openstack.git --recursive~
    - run ~vagrant up~ in repo
    - ~vagrant ssh~ in or visit [[http://198.101.10.10][dashboard]]
 
