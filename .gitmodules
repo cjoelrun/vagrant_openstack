@@ -7,3 +7,6 @@
 [submodule "cookbooks/cloudcafe"]
 	path = cookbooks/cloudcafe
 	url = https://github.com/cjoelrun/cloudcafe-chef.git
+[submodule "cookbooks/python"]
+	path = cookbooks/python
+	url = https://github.com/opscode-cookbooks/python.git
