@@ -5,7 +5,7 @@
    - Clone repo
      ~git clone https://github.com/rcbops-qa/vagrant_openstack.git --recursive~
    - run ~vagrant up~ in repo
-   - ~vagrant ssh~ in or visit [[http://198.101.10.10][dashboard]]
+   - ~vagrant ssh~ in or visit the [[http://198.168.101.101][dashboard]]
 
 ** Tests
    
